@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="memu.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1 style="background: linear-gradient(90deg, blue,red,pink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;font-size: 3em;">Welcome to Memo</h1>
+
+        <p style="background: linear-gradient(90deg, rgb(241, 3, 241),indigo,blue,red); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">-Your Personal Mini Diary</p>
+        <span>
+            <input type="text" placeholder="Add your Work" class="Write">
+            <button class="add"><i class="fa-solid fa-plus"></i></button>
+        </span>
+        <div class="work">
+            <div class="addTask">
+                <h3>1.Your Sample Task</h3>
+                <input type="checkbox" class="done">
+                <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="memu.js"></script>
+</body>
+</html>
